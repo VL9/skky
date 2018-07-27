@@ -1,6 +1,13 @@
-/* .navbar{
-  opacity: 0.1;
-} */
+.navbar{
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.navbar img{
+  /* width: 40px; */
+  height: 35px;
+  padding: 0;
+}
 
 
 .cover{
@@ -120,4 +127,13 @@ textarea::-webkit-input-placeholder {
 
 .icon-right{
   float: right;
+}
+
+h1, h2, h3{
+  font-weight: normal;
+}
+
+.navbar li{
+  font-size: 13px;
+  padding: 0 3px;
 }
