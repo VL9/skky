@@ -11,7 +11,7 @@
 
 
 .cover{
-  max-height: 640px;
+  max-height: 520px;
   width: 100%;
   overflow: hidden;
   object-fit: cover;
@@ -22,6 +22,10 @@
   vertical-align: middle;
   object-fit: cover;
   object-position: center;
+}
+
+.cover-home{
+
 }
 
 .title-area{
@@ -95,8 +99,13 @@ textarea::-webkit-input-placeholder {
   border-color: #999999;
 }
 
+.footer ul{
+  padding-left: 0;
+}
+
 .copyright{
   font-weight: normal;
+  color: #999999;
 }
 
 .home{
