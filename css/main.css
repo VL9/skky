@@ -24,17 +24,12 @@
   object-position: center;
 }
 
-.cover-home{
-
-}
-
-.title-area{
-  /* z-index: 1; */
-}
-
-.title{
-  /* z-index: 1; */
-}
+/* .text-block{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
 
 .container{
   text-align: center;
@@ -140,6 +135,11 @@ textarea::-webkit-input-placeholder {
 
 h1, h2, h3{
   font-weight: normal;
+}
+
+h2{
+  font-family: 'Lobster', cursive;
+  font-size: 38px;
 }
 
 .contact a{
