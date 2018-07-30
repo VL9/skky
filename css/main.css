@@ -157,3 +157,10 @@ h1, h2, h3{
   font-size: 14px;
   padding: 0 3px;
 }
+
+@media(max-width: 700px) {
+  .navbar{
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+}
