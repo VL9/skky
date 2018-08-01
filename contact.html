@@ -83,18 +83,18 @@
                 <p>If you are interested in our services, please contact us today so we can show you how Skky can look after you in maximising your rental returns without the pressures of hosting yourself.</p>
               </div>
               <div>
-                <form class="needs-validation" novalidate action="https://formspree.io/skky.keys@gmail.com" method="POST">
+                <form class="needs-validation" action="https://formspree.io/vutple@gmail.com" method="POST">
                   <div class="row">
                     <div class="col-md-6 mb-3">
                       <label for="firstName">First name *</label>
-                      <input type="text" class="" placeholder="SKKY" required>
+                      <input type="text" class="form-control" name="firstName" placeholder="SKKY" required>
                       <div class="invalid-feedback">
                         Valid first name is required.
                       </div>
                     </div>
                     <div class="col-md-6 mb-3">
                       <label for="lastName">Last name *</label>
-                      <input type="text" class="form-control" placeholder="Keys" required>
+                      <input type="text" class="form-control" name="lastName" placeholder="Keys" required>
                       <div class="invalid-feedback">
                         Valid last name is required.
                       </div>
@@ -103,7 +103,7 @@
 
                   <div class="mb-3">
                     <label for="email">Email *</label>
-                    <input type="email" class="form-control" placeholder="you@example.com" required>
+                    <input type="email" class="form-control" name="email" placeholder="you@example.com" required>
                     <div class="invalid-feedback">
                       Please enter a valid email address.
                     </div>
@@ -111,7 +111,7 @@
 
                   <div class="mb-3">
                     <label for="tel">Phone</label>
-                    <input type="tel" class="form-control" placeholder="0123 456 789">
+                    <input type="tel" class="form-control" name="tel" placeholder="0123 456 789">
                     <div class="invalid-feedback">
                       Please enter your phone number.
                     </div>
@@ -119,26 +119,26 @@
 
                   <div class="mb-3">
                     <label for="Suburb">Suburb</label>
-                    <input type="text" class="form-control" placeholder="Sydney">
+                    <input type="text" class="form-control" name="suburb" placeholder="Sydney">
                   </div>
 
                   <p>What type of service do you require?</p>
                   <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input">
-                    <label class="custom-control-label">Short Term Property Management Services</label>
+                    <input type="checkbox" class="custom-control-input" name="short-term">
+                    <label class="custom-control-label" for="short-term">Short Term Property Management Services</label>
                   </div>
                   <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input">
-                    <label class="custom-control-label">Long Term Property Management Services</label>
+                    <input type="checkbox" class="custom-control-input" name="long-term">
+                    <label class="custom-control-label" for="long-term">Long Term Property Management Services</label>
                   </div>
                   <br>
                   <div class="mb-3">
                     <label for="Message">Message</label>
-                    <textarea type="text" class="form-control" placeholder="Please provide a brief description of your home (e.g one bedroom apartment with no parking) and what management services you're after." rows="4"></textarea>
+                    <textarea type="text" class="form-control" name="message" placeholder="Please provide a brief description of your home (e.g one bedroom apartment with no parking) and what management services you're after." rows="4"></textarea>
                   </div>
 
                   <hr class="mb-4">
-                  <button class="btn btn-outline-dark btn-lg" type="submit">SUBMIT</button>
+                  <button class="btn btn-outline-dark btn-lg" type="submit" value="send">SUBMIT</button>
                 </form>
               </div>
             </div>
